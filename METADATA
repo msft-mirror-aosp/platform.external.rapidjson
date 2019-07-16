@@ -1,0 +1,17 @@
+name: "rapidjson"
+description:
+    "A fast JSON parser/generator for C++ with both SAX/DOM style API "
+    "http://rapidjson.org/"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://github.com/miloyip/rapidjson"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/Tencent/rapidjson.git"
+  }
+  version: "d87b698d0fcc10a5f632ecbc80a9cb2a8fa094a5"
+  last_upgrade_date { year: 2018 month: 07 day: 10 }
+}
